@@ -10,6 +10,7 @@
 		058C3B400B376DEA26A5C73D /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29296452AA9AC3FCDD6E2F99 /* Pods_Parstagram.framework */; };
 		23245CFA25FC6F72008E690E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23245CF925FC6F72008E690E /* CameraViewController.swift */; };
 		23245D1325FC7BF7008E690E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23245D1225FC7BF7008E690E /* PostCell.swift */; };
+		235BDD5B260571FD0048E205 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235BDD5A260571FD0048E205 /* CommentCell.swift */; };
 		23934E6925FC44DE000461FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23934E6825FC44DE000461FB /* AppDelegate.swift */; };
 		23934E6B25FC44DE000461FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23934E6A25FC44DE000461FB /* SceneDelegate.swift */; };
 		23934E7025FC44DE000461FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23934E6E25FC44DE000461FB /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		23245CF925FC6F72008E690E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		23245D1225FC7BF7008E690E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		235BDD5A260571FD0048E205 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		23934E6525FC44DE000461FB /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23934E6825FC44DE000461FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23934E6A25FC44DE000461FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				23FD54B125FC491800A2A427 /* FeedViewController.swift */,
 				23245CF925FC6F72008E690E /* CameraViewController.swift */,
 				23245D1225FC7BF7008E690E /* PostCell.swift */,
+				235BDD5A260571FD0048E205 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				23FD54B225FC491800A2A427 /* FeedViewController.swift in Sources */,
 				23934E6B25FC44DE000461FB /* SceneDelegate.swift in Sources */,
 				23245D1325FC7BF7008E690E /* PostCell.swift in Sources */,
+				235BDD5B260571FD0048E205 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
